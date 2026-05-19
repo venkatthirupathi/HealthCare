@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node --version 2>$null)",
+      "PowerShell(npm --version 2>$null)",
+      "Bash(python3 -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(curl --version)",
+      "Bash(wget --version)",
+      "Bash(curl -sL https://www.python.org/ftp/python/3.11.9/python-3.11.9-embed-amd64.zip -o /tmp/python-embed.zip)",
+      "Bash(curl -v --max-time 10 https://www.python.org)",
+      "Bash(node eval/run_eval.js)"
+    ]
+  }
+}

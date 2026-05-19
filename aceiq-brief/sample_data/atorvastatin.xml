@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Atorvastatin Calcium Tablets</title>
+  <name>Atorvastatin</name>
+
+  <section code="34067-9" displayName="Indications and Usage">
+    <text>Atorvastatin calcium is indicated as an adjunct to diet to reduce the risk of myocardial infarction, stroke, revascularization procedures, and angina in adults with multiple risk factors for coronary heart disease but without clinically evident coronary heart disease. It is indicated to reduce elevated total cholesterol, LDL-cholesterol, apolipoprotein B, and triglycerides in adult and pediatric patients 10 years of age and older with primary hypercholesterolemia and mixed dyslipidemia.</text>
+  </section>
+
+  <section code="34068-7" displayName="Dosage and Administration">
+    <text>The recommended starting dose of atorvastatin in adults is 10 or 20 mg once daily. Patients who require larger reductions in LDL-C (more than 45 percent) may be started at 40 mg once daily. The dosage range is 10 to 80 mg once daily, taken at any time of day with or without food. In pediatric patients 10-17 years of age with heterozygous familial hypercholesterolemia, the recommended starting dose is 10 mg once daily, with a maximum dose of 20 mg per day. Adjust the dose after 2 to 4 weeks based on lipid levels.</text>
+  </section>
+
+  <section code="34070-3" displayName="Contraindications">
+    <text>Atorvastatin is contraindicated in patients with active liver disease, which may include unexplained persistent elevations of hepatic transaminase levels. It is also contraindicated during pregnancy and in nursing mothers because serum cholesterol and triglycerides increase during normal pregnancy, and cholesterol products are essential for fetal development. Atorvastatin should be administered to women of childbearing age only when such patients are highly unlikely to conceive. Concomitant use with strong CYP3A4 inhibitors such as itraconazole and clarithromycin is contraindicated at higher atorvastatin doses.</text>
+  </section>
+
+  <section code="34071-1" displayName="Warnings and Precautions">
+    <text>Skeletal muscle effects: rhabdomyolysis with acute renal failure secondary to myoglobinuria has been reported. Predisposing factors include advanced age (65 years or older), uncontrolled hypothyroidism, and renal impairment. Risk is increased with concomitant use of certain drugs such as fibrates and niacin (at doses greater than 1 gram per day). Patients should report unexplained muscle pain, tenderness, or weakness promptly. Discontinue atorvastatin if markedly elevated creatine kinase levels occur or if myopathy is diagnosed or suspected. Liver enzyme abnormalities have been reported; monitor liver enzymes before initiation and as clinically indicated thereafter.</text>
+  </section>
+
+  <section code="34078-6" displayName="Adverse Reactions">
+    <text>The most common adverse reactions (incidence at least 2 percent and greater than placebo) are nasopharyngitis, arthralgia, diarrhea, pain in extremity, and urinary tract infection. Increases in HbA1c and fasting serum glucose levels have been reported with HMG-CoA reductase inhibitors. Memory loss and confusion have been reported postmarketing; these are generally non-serious and reversible upon discontinuation. Hepatotoxicity, myopathy, and rhabdomyolysis are uncommon but serious.</text>
+  </section>
+
+  <section code="34073-7" displayName="Drug Interactions">
+    <text>Strong CYP3A4 inhibitors (clarithromycin, itraconazole, HIV protease inhibitors, ritonavir-containing combinations) markedly increase atorvastatin exposure and the risk of myopathy. Cyclosporine, fibrates, niacin, and colchicine increase the risk of myopathy when used with atorvastatin. Grapefruit juice may increase plasma concentrations; large quantities should be avoided. Rifampin decreases atorvastatin plasma concentrations.</text>
+  </section>
+
+  <section code="34076-0" displayName="Use in Specific Populations">
+    <text>Atorvastatin is contraindicated during pregnancy. Cholesterol biosynthesis is essential for fetal development. Discontinue atorvastatin as soon as pregnancy is recognized. Limited published data on atorvastatin use during breastfeeding indicate that atorvastatin is present in human milk; advise nursing mothers not to breastfeed during atorvastatin therapy. Safety and effectiveness have not been established in pediatric patients younger than 10 years of age.</text>
+  </section>
+
+  <section code="34088-5" displayName="Pharmacokinetics">
+    <text>Atorvastatin is rapidly absorbed after oral administration; maximum plasma concentrations occur within 1 to 2 hours. Absolute bioavailability of atorvastatin is approximately 14 percent. Atorvastatin is greater than 98 percent bound to plasma proteins. The mean plasma elimination half-life of atorvastatin in humans is approximately 14 hours, but the half-life of inhibitory activity for HMG-CoA reductase is 20 to 30 hours due to the contribution of active metabolites.</text>
+  </section>
+</document>

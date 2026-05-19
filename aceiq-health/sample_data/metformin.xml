@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Metformin Hydrochloride Tablets</title>
+  <name>Metformin</name>
+
+  <section code="34067-9" displayName="Indications and Usage">
+    <text>Metformin hydrochloride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus. Metformin is not indicated for the treatment of type 1 diabetes mellitus or diabetic ketoacidosis. Limitations of use include patients with renal impairment as described in Contraindications.</text>
+  </section>
+
+  <section code="34068-7" displayName="Dosage and Administration">
+    <text>Recommended starting dose in adults is 500 mg orally twice daily or 850 mg once daily, taken with meals. Increase the dose in 500 mg increments weekly, or 850 mg every 2 weeks, up to a maximum of 2550 mg per day in divided doses. In pediatric patients 10-16 years of age, the recommended starting dose is 500 mg twice daily with meals, with weekly increases up to a maximum of 2000 mg per day. Doses above 2000 mg may be better tolerated given three times daily with meals. Assess renal function before initiating metformin and at least annually thereafter.</text>
+  </section>
+
+  <section code="34070-3" displayName="Contraindications">
+    <text>Metformin hydrochloride is contraindicated in patients with severe renal impairment, defined as estimated glomerular filtration rate (eGFR) below 30 mL/min/1.73m squared. It is also contraindicated in patients with a known hypersensitivity to metformin hydrochloride, and in patients with acute or chronic metabolic acidosis, including diabetic ketoacidosis, with or without coma.</text>
+  </section>
+
+  <section code="34066-1" displayName="Boxed Warning">
+    <text>WARNING: LACTIC ACIDOSIS. Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias. The onset is often subtle, accompanied only by nonspecific symptoms such as malaise, myalgias, respiratory distress, somnolence, and abdominal pain. Risk factors include renal impairment, concomitant use of certain drugs, age 65 years or older, having a radiological study with contrast, surgery and other procedures, hypoxic states, excessive alcohol intake, and hepatic impairment. If metformin-associated lactic acidosis is suspected, immediately discontinue metformin and institute general supportive measures in a hospital setting.</text>
+  </section>
+
+  <section code="34071-1" displayName="Warnings and Precautions">
+    <text>Vitamin B12 deficiency may occur with long-term metformin use; monitor hematologic parameters annually and serum vitamin B12 at 2- to 3-year intervals. Hypoglycemia is not common when metformin is used as monotherapy but may occur in combination with insulin or sulfonylureas. Use caution in patients with hepatic impairment, as this is a risk factor for lactic acidosis.</text>
+  </section>
+
+  <section code="34078-6" displayName="Adverse Reactions">
+    <text>The most common adverse reactions occurring in 5 percent or more of metformin-treated patients and more commonly than placebo were diarrhea, nausea, vomiting, flatulence, asthenia, indigestion, abdominal discomfort, and headache. These gastrointestinal symptoms are usually transient and resolve spontaneously during continued therapy. Hypoglycemia, megaloblastic anemia, and lactic acidosis have been reported.</text>
+  </section>
+
+  <section code="34073-7" displayName="Drug Interactions">
+    <text>Iodinated contrast media may cause acute renal injury that can precipitate metformin-associated lactic acidosis; discontinue metformin at the time of, or before, an iodinated contrast imaging procedure in patients with eGFR between 30 and 60 mL/min/1.73m squared. Carbonic anhydrase inhibitors such as topiramate and acetazolamide may increase the risk of lactic acidosis. Concomitant use with alcohol potentiates the effect of metformin on lactate metabolism.</text>
+  </section>
+
+  <section code="34076-0" displayName="Use in Specific Populations">
+    <text>Limited data with metformin in pregnant women are not sufficient to determine a drug-associated risk for major birth defects or miscarriage. Poorly controlled diabetes during pregnancy increases maternal risk for diabetic ketoacidosis, preeclampsia, and delivery complications. Metformin is excreted in human milk; caution should be exercised when administered to nursing women. Renal function declines with age; in elderly patients, monitor renal function more frequently.</text>
+  </section>
+
+  <section code="34088-5" displayName="Pharmacokinetics">
+    <text>The absolute bioavailability of a 500 mg metformin tablet given under fasting conditions is approximately 50 to 60 percent. The plasma elimination half-life of metformin is approximately 6.2 hours. Metformin is excreted unchanged in the urine and does not undergo hepatic metabolism. Renal clearance is approximately 3.5 times greater than creatinine clearance, indicating tubular secretion is the major route of elimination.</text>
+  </section>
+</document>
