@@ -1,4 +1,5 @@
 """GET /health — system status check."""
+
 from __future__ import annotations
 
 from sqlalchemy import func, select

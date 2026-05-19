@@ -1,4 +1,5 @@
 """GET /api/v1/jobs/{job_id} — poll ingest job status."""
+
 from __future__ import annotations
 
 import uuid

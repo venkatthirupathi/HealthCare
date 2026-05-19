@@ -1,4 +1,5 @@
 """Document endpoints: list ingested docs and upload new ones."""
+
 from __future__ import annotations
 
 import uuid
@@ -20,9 +21,11 @@ router = APIRouter(prefix="/api/v1")
 @router.get("/documents", response_model=list[DocumentSummary])
 def list_documents(db: Session = Depends(get_db)) -> list[DocumentSummary]:
     """Return all ingested documents ordered by creation date."""
-    docs = db.execute(
-        select(Document).order_by(Document.created_at.desc())
-    ).scalars().all()
+    docs = (
+        db.execute(select(Document).order_by(Document.created_at.desc()))
+        .scalars()
+        .all()
+    )
     return [DocumentSummary.model_validate(d) for d in docs]
 
 

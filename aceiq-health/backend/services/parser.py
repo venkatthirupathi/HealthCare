@@ -1,4 +1,5 @@
 """Parse FDA SPL XML files into a structured ParsedLabel."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field

@@ -1,4 +1,5 @@
 """Tests for PII redaction and prescribing-intent detection."""
+
 from __future__ import annotations
 
 import pytest
@@ -60,26 +61,32 @@ class TestRedactPII:
 
 
 class TestPrescribingIntent:
-    @pytest.mark.parametrize("question", [
-        "What should I prescribe for UTI in pregnancy?",
-        "What do we prescribe for pneumonia?",
-        "Best antibiotic for strep throat?",
-        "Best drug for hypertension in elderly?",
-        "Can I start metformin in a CKD patient?",
-        "Should I give aspirin after MI?",
-        "My patient has severe renal failure",
-        "My patient is 80 years old with diabetes",
-    ])
+    @pytest.mark.parametrize(
+        "question",
+        [
+            "What should I prescribe for UTI in pregnancy?",
+            "What do we prescribe for pneumonia?",
+            "Best antibiotic for strep throat?",
+            "Best drug for hypertension in elderly?",
+            "Can I start metformin in a CKD patient?",
+            "Should I give aspirin after MI?",
+            "My patient has severe renal failure",
+            "My patient is 80 years old with diabetes",
+        ],
+    )
     def test_prescribing_questions_detected(self, question: str):
         assert is_prescribing_intent(question), f"Expected refusal for: {question!r}"
 
-    @pytest.mark.parametrize("question", [
-        "What is the renal dosing for metformin?",
-        "What are the contraindications for atorvastatin?",
-        "What is the half-life of amoxicillin?",
-        "What does the label say about boxed warnings for metformin?",
-        "What are the adverse reactions to amoxicillin?",
-    ])
+    @pytest.mark.parametrize(
+        "question",
+        [
+            "What is the renal dosing for metformin?",
+            "What are the contraindications for atorvastatin?",
+            "What is the half-life of amoxicillin?",
+            "What does the label say about boxed warnings for metformin?",
+            "What are the adverse reactions to amoxicillin?",
+        ],
+    )
     def test_label_queries_not_refused(self, question: str):
         assert not is_prescribing_intent(question), f"Should NOT refuse: {question!r}"
 

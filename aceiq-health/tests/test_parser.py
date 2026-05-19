@@ -1,7 +1,7 @@
 """Tests for SPL XML parser."""
+
 from __future__ import annotations
 
-import pytest
 
 from backend.services.parser import ParsedLabel, parse_spl_xml
 

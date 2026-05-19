@@ -1,4 +1,5 @@
 """SQLAlchemy ORM models — SQLAlchemy 2.0 Mapped style."""
+
 from __future__ import annotations
 
 import uuid
@@ -64,8 +65,12 @@ class Chunk(Base):
 
     __tablename__ = "chunks"
     __table_args__ = (
-        Index("ix_chunks_text_trgm", "text", postgresql_using="gin",
-              postgresql_ops={"text": "gin_trgm_ops"}),
+        Index(
+            "ix_chunks_text_trgm",
+            "text",
+            postgresql_using="gin",
+            postgresql_ops={"text": "gin_trgm_ops"},
+        ),
     )
 
     id: Mapped[uuid.UUID] = mapped_column(
@@ -115,9 +120,7 @@ class QueryLog(Base):
     redacted_question: Mapped[str] = mapped_column(Text, nullable=False)
     answer: Mapped[str] = mapped_column(Text, nullable=False)
     refused: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
-    refusal_reason: Mapped[Optional[str]] = mapped_column(
-        String(256), nullable=True
-    )
+    refusal_reason: Mapped[Optional[str]] = mapped_column(String(256), nullable=True)
     model_used: Mapped[str] = mapped_column(String(128), nullable=False)
     provider_used: Mapped[str] = mapped_column(String(32), nullable=False)
     retrieved_chunk_ids: Mapped[Optional[list]] = mapped_column(JSON, nullable=True)

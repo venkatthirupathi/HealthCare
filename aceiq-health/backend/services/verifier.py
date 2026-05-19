@@ -1,4 +1,5 @@
 """Post-hoc grounding verifier: scores how well the answer is supported by chunks."""
+
 from __future__ import annotations
 
 import json

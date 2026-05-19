@@ -1,4 +1,5 @@
 """Lazy-loaded sentence-transformers embedding wrapper."""
+
 from __future__ import annotations
 
 import logging

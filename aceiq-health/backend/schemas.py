@@ -1,4 +1,5 @@
 """Pydantic v2 request/response schemas for all API endpoints."""
+
 from __future__ import annotations
 
 import uuid

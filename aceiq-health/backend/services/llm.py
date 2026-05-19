@@ -2,6 +2,7 @@
 
 Priority: Anthropic (primary) → OpenAI (fallback) → retrieval-only (no crash).
 """
+
 from __future__ import annotations
 
 import logging
@@ -60,7 +61,7 @@ def _format_user_message(question: str, chunks: list[ChunkResult]) -> str:
         + "\n\n---\nQuestion: "
         + question
         + "\n\nAnswer using only the excerpts above. Cite section names in [brackets].\n"
-        "If the answer is not in the excerpts, say \"The provided excerpts do not\n"
+        'If the answer is not in the excerpts, say "The provided excerpts do not\n'
         'address this question."'
     )
 

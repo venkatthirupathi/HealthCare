@@ -1,4 +1,5 @@
 """Hybrid retrieval: vector search + trigram search → RRF → cross-encoder rerank."""
+
 from __future__ import annotations
 
 import logging
@@ -96,7 +97,9 @@ def _vec_str(vec: list[float]) -> str:
     return "[" + ",".join(f"{v:.8f}" for v in vec) + "]"
 
 
-def _rrf_fuse(list_a: list[ChunkResult], list_b: list[ChunkResult], k: int = 60) -> list[ChunkResult]:
+def _rrf_fuse(
+    list_a: list[ChunkResult], list_b: list[ChunkResult], k: int = 60
+) -> list[ChunkResult]:
     """Reciprocal Rank Fusion: combine two ranked lists into one."""
     scores: dict[str, float] = {}
     items: dict[str, ChunkResult] = {}
@@ -144,7 +147,9 @@ def retrieve(
                 _VECTOR_SQL_DRUG, {"vec": vec_str, "lim": top_k, "drugs": drug_list}
             ).fetchall()
         else:
-            vec_rows = db.execute(_VECTOR_SQL, {"vec": vec_str, "lim": top_k}).fetchall()
+            vec_rows = db.execute(
+                _VECTOR_SQL, {"vec": vec_str, "lim": top_k}
+            ).fetchall()
 
         vector_results = [_row_to_chunk(r) for r in vec_rows]
 
@@ -154,7 +159,9 @@ def retrieve(
                 _TRGM_SQL_DRUG, {"query": question, "lim": top_k, "drugs": drug_list}
             ).fetchall()
         else:
-            trgm_rows = db.execute(_TRGM_SQL, {"query": question, "lim": top_k}).fetchall()
+            trgm_rows = db.execute(
+                _TRGM_SQL, {"query": question, "lim": top_k}
+            ).fetchall()
 
         trigram_results = [_row_to_chunk(r) for r in trgm_rows]
 

@@ -1,4 +1,5 @@
 """POST /api/v1/query — the core RAG query endpoint."""
+
 from __future__ import annotations
 
 import logging

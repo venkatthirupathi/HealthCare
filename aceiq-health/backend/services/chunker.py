@@ -1,4 +1,5 @@
 """Convert a ParsedLabel into a flat list of chunks ready for embedding."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
